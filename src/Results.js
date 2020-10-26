@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Results = () => {
-  return <div>Results</div>;
+export const Results = (props) => {
+  return <div>Results: {JSON.stringify(props.emojis)}</div>;
 };
