@@ -23,7 +23,7 @@ export const Header = () => {
     <header id="header">
       <h1>
         <img src={EMOJI1_SRC} width={32} height={32} />
-        {spongeBobCase('Emoji Search')}
+        {spongeBobCase("Emoji Search")}
         <img src={EMOJI2_SRC} width={32} height={32} />
       </h1>
     </header>
